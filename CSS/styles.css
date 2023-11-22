@@ -4,7 +4,9 @@
 {
    background-color: #2E2F42;
    color:#FFF;
-}
+   line-height: 1.07;
+   text-align: center;
+   letter-spacing: 0.02em;
 
 
 .cl-text
@@ -13,8 +15,9 @@ font-family: Roboto;
 font-size: 56px;
 font-style: normal;
 font-weight: 700;
-line-height: 60px;
-text-align:left;
+line-height: 1.07;
+text-align: center;
+letter-spacing: 0.02em;
 }
 .btn-service
 {
@@ -51,14 +54,17 @@ text-align: left;
 
 
 
-.clhead2
+.section-head-what
 {
 color:#2E2F42;
 font-family: Roboto;
 font-size: 36px;
 font-style: normal;
 font-weight: 700;
-line-height: 40px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
 
 }
 
