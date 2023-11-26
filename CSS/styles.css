@@ -43,13 +43,9 @@ letter-spacing: 0.02em;
 
 }
 
-.links-header:hover
+.links-header:hover .links-header:focus
 {
     color: var(--links-color);
-}
-.links-header:focus
-{
-color:  var(--links-color);
 }
 
 .links-dot-none{
@@ -66,13 +62,9 @@ color:  var(--links-color);
     line-height: 1.5
     letter-spacing: 0.02em;
 }
-.adress-info:hover
+.adress-info:hover .adress-info:focus
 {
    color: var(--links-color);
-}
-.adress-info:focus
-{
-    color:var(--links-color);
 }
 
 .btn-sek1
@@ -86,17 +78,13 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 cursor: pointer;
 }
-.btn-sek1:hover
+.btn-sek:hover .btn-sek1:focus
 {
    color: #FFFFFF;
    background-color: var(--links-color);
 }
-.btn-sek1:focus
-{
-   color:#FFFFFF
-   
-}
-.btn-sek1:focus
+
+.btn-sek:focus
 {
     background-color:var(--links-color);
 }
