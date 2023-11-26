@@ -43,14 +43,12 @@ letter-spacing: 0.02em;
 
 }
 
-.links-header:hover .links-header:focus
+.links-header:hover, .links-header:focus
 {
     color: var(--links-color);
 }
 
 
-  
-}
 .adress-info
 {
     color: var(--pcolor);
