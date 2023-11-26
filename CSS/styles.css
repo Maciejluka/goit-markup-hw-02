@@ -69,7 +69,7 @@ letter-spacing: 0.02em;
 
 .btn-sek
 {
-
+font-family: "roboto" sans-serif;
 color: var(--logo-webcolor);
 background-color: var(--button-color);
 font-size: 16px;
@@ -96,12 +96,12 @@ cursor: pointer;
 font-size: 20px;
 font-style: normal;
 font-weight: 500;
-line-height: 1.5;
+line-height: 1.2;
 letter-spacing: 0.02em;
 }
 .images-text
 {
-color:var(--pcolor);
+color: var(--pcolor);
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
