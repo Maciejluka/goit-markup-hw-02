@@ -7,13 +7,14 @@
   --button-color:#F4F4FD;
 }
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   color: var(--pcolor);
+  background-color: var(--background-color);
 }
 
 .logo-webstudio {
   color: var(--logo-webcolor);
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
