@@ -129,3 +129,87 @@
   {
       color:var(--button-color);
   }
+  .index-first-section-color
+  {
+    background-color:var(--navy-color);
+  }
+.index-fourth-section-color
+{
+  background-color: #F4F4FD ;
+}
+  .index-first-header
+  {
+font-family: Roboto;
+font-size: 56px;
+font-style: normal;
+font-weight: 700;
+line-height: 1.07;
+letter-spacing: 1.12px;
+color:  #ffffff;
+text-align: center;
+  }
+  .btn-order-service
+  {
+    background-color: #4D5AE5;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+cursor: pointer;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #ffffff;
+  }
+
+  .btn-order-service:hover,.btn-order-service:focus
+  {
+    background-color: #404BBF;
+  }
+
+  .index-second-header
+  {
+    color: var(--navy-color);
+    font-family: Roboto;
+font-size: 20px;
+
+font-weight: 500;
+line-height: 1.2;
+letter-spacing: 0.02em;
+  }
+
+  .index-section-two-text
+  {
+    font-family: Roboto;
+font-size: 16px;
+color: var(--pcolor);
+font-weight: 400;
+line-height:1.5;
+letter-spacing: 0.02em;
+
+  }
+
+  .index-third-header
+  {
+   color: var(--navy-color); 
+font-size: 36px;
+text-align: center;
+font-weight: 700;
+line-height:1.11;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+  }
+  .index-section-four-list
+  {
+    color: #FFFFFF;
+  }
+
+  .index-logo-studio-footer
+  {
+    color: #f4f4fd;
+
+  }
+  .index-footer-p
+  {
+    color: var(--button-color);
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+  }
