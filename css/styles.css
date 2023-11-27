@@ -108,6 +108,7 @@
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: var(--pcolor);
   }
   
   .footer-background-color
@@ -125,10 +126,7 @@
       letter-spacing: 0.54px;
       text-transform: uppercase;
   }
-  .images-text
-  {
-      color:var(--button-color);
-  }
+  
   .index-first-section-color
   {
     background-color:var(--navy-color);
@@ -199,7 +197,7 @@ text-transform: capitalize;
   }
   .index-section-four-list
   {
-    color: #FFFFFF;
+    background-color: #FFFFFF;
   }
 
   .index-logo-studio-footer
