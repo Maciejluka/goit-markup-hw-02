@@ -1,211 +1,176 @@
 :root {
-    --navy-color: #2e2f42;
-    --pcolor: #434455;
-    --logo-webcolor: #4d5ae5;
-    --background-color:#FFFFFF;
-    --links-color:#404bbf;
-    --button-color:#F4F4FD;
-  }
-  body {
-    font-family: "Roboto", sans-serif;
-    color: var(--pcolor);
-    background-color: var(--background-color);
-  }
-  
-  .logo-webstudio {
-    color: var(--logo-webcolor);
-    font-family: "Raleway", sans-serif;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-  }
-  .logo-studio
-  {
+  --navy-color: #2e2f42;
+  --pcolor: #434455;
+  --logo-webcolor: #4d5ae5;
+  --background-color: #ffffff;
+  --links-color: #404bbf;
+  --button-color: #f4f4fd;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--pcolor);
+  background-color: var(--background-color);
+}
+
+.logo-webstudio {
+  color: var(--logo-webcolor);
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.logo-studio {
   color: var(--navy-color);
-  
-  }
-  .link
-  {
+}
+.link {
   text-decoration: none;
-  }
-  
-  
-  .links-header
-  {
+}
+
+.links-header {
   color: var(--navy-color);
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  
-  }
-  
-  .links-header:hover, .links-header:focus
-  {
-      color: var(--links-color);
-  }
-  
-  
-  .adress-info
-  {
-      color: var(--pcolor);
-      font-size: 16px;
-      font-style: normal;
-      font-weight: 400;
-      line-height: 1.5;
-      letter-spacing: 0.02em;
-  
-  
-  }
-  .adress-info:hover, .adress-info:focus
-  {
-     color: var(--links-color);
-  }
-  
-  
-  
-  .btn-sek
-  {
-  font-family:"Roboto", sans-serif;
+}
+
+.adress-info {
+  color: var(--pcolor);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.adress-info:hover,
+.adress-info:focus,
+.links-header:hover,
+.links-header:focus {
+  color: var(--links-color);
+}
+.btn-sek {
+  font-family: 'Roboto', sans-serif;
   color: var(--logo-webcolor);
   background-color: var(--button-color);
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 1.5; 
+  line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
-  }
-  .btn-sek:hover, .btn-sek:focus
-  {
-     color: #FFFFFF;
-     background-color: var(--links-color);
-  }
-  
-  .list
-  {
-      list-style: none;
-  }
-  
-  .images-header
-  {
-      color:var(--navy-color);
+}
+.btn-sek:hover,
+.btn-sek:focus {
+  color: #ffffff;
+  background-color: var(--links-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.images-header {
+  color: var(--navy-color);
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  }
-  
-  .footer-background-color
-  {
-    background-color: var(--navy-color);
-  }
-  .logo-studio-footer
-  {
-      color: var(--button-color);
-      font-family: Raleway;
-      font-size: 18px;
-      font-style: normal;
-      font-weight: 800;
-      line-height: 21px; /* 116.667% */
-      letter-spacing: 0.54px;
-      text-transform: uppercase;
-  }
-  
-  .index-first-section-color
-  {
-    background-color:var(--navy-color);
-  }
-.index-fourth-section-color
-{
-  background-color: #F4F4FD ;
 }
-  .index-first-header
-  {
-font-family: Roboto;
-font-size: 56px;
-font-style: normal;
-font-weight: 700;
-line-height: 1.07;
-letter-spacing: 1.12px;
-color:  #ffffff;
-text-align: center;
-  }
-  .btn-order-service
-  {
-    background-color: #4D5AE5;
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-cursor: pointer;
-font-weight: 500;
-line-height: 1.5;
-letter-spacing: 0.04em;
-color: #ffffff;
-  }
 
-  .btn-order-service:hover,.btn-order-service:focus
-  {
-    background-color: #404BBF;
-  }
+.footer-background-color {
+  background-color: var(--navy-color);
+}
+.logo-studio-footer {
+  color: var(--button-color);
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 21px;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
 
-  .index-second-header
-  {
-    color: var(--navy-color);
-    font-family: Roboto;
-font-size: 20px;
-font-weight: 500;
-line-height: 1.2;
-letter-spacing: 0.02em;
-  }
+.index-first-section-color {
+  background-color: var(--navy-color);
+}
+.index-fourth-section-color {
+  background-color: #f4f4fd;
+}
+.index-first-header {
+  font-family: Roboto;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 1.12px;
+  color: #ffffff;
+  text-align: center;
+}
+.btn-order-service {
+  background-color: #4d5ae5;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--background-color);
+}
 
-  .images-text
-  {
-    font-family: Roboto;
-font-size: 16px;
-color: var(--pcolor);
-font-weight: 400;
-line-height:1.5;
-letter-spacing: 0.02em;
+.btn-order-service:hover,
+.btn-order-service:focus {
+  background-color: #404bbf;
+}
 
-  }
+.index-second-header {
+  color: var(--navy-color);
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
 
-  .index-third-header
-  {
-   color: var(--navy-color); 
-font-size: 36px;
-text-align: center;
-font-weight: 700;
-line-height:1.11;
-letter-spacing: 0.02em;
-text-transform: capitalize;
-  }
-  .index-section-four-list
-  {
-    background-color: #FFFFFF;
-  }
+.images-text {
+  font-family: Roboto;
+  font-size: 16px;
+  color: var(--pcolor);
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
 
-  .index-logo-studio-footer
-  {
-    color: #f4f4fd;
+.index-third-header {
+  color: var(--navy-color);
+  font-size: 36px;
+  text-align: center;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+.index-section-four-list {
+  background-color: #ffffff;
+}
 
-  }
-  .index-footer-p
-  {
-    color: var(--button-color);
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-  }
+.index-logo-studio-footer {
+  color: #f4f4fd;
+}
+.index-footer-p {
+  color: var(--button-color);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
 
-  .adress-font-normal
-  {
-    font-style: normal;
-  }
-  .images-text-app
-  {
-    color:var( --pcolor);
-  }
+.adress-font-normal {
+  font-style: normal;
+}
+.images-text-app {
+  color: var(--pcolor);
+}
