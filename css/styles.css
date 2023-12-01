@@ -99,7 +99,7 @@ body {
 .index-first-section-color {
   background-color: var(--navy-color);
 }
-.index-fourth-section-color {
+.section-team-color {
   background-color: var(--button-color);
 }
 .index-first-header {
@@ -109,11 +109,11 @@ body {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 1.12px;
-  color:var(--background-color)
+  color: var(--background-color);
   text-align: center;
 }
 .btn-order-service {
-  background-color:var(--links-color)
+  background-color: var(--links-color);
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   cursor: pointer;
@@ -125,7 +125,7 @@ body {
 
 .btn-order-service:hover,
 .btn-order-service:focus {
-  background-color:var(--links-color);
+  background-color: var(--links-color);
 }
 
 .index-second-header {
@@ -155,12 +155,12 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
-.index-section-four-list {
-  background-color:var(--background-color);
+.section-team-color-list {
+  background-color: var(--background-color);
 }
 
 .index-logo-studio-footer {
-  color:var(--button-color)
+  color: var(--button-color);
 }
 .index-footer-p {
   color: var(--button-color);
